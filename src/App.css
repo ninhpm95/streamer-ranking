@@ -1,0 +1,36 @@
+.App {
+  display: flex;
+  justify-content: center;
+}
+
+.StreamerList {
+  line-height: 3em;
+}
+
+.Streamer {
+  display: flex;
+  position: absolute;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  transition: all 1s;
+}
+
+.rank {
+  width: 2em;
+}
+
+.profilePic {
+  height: 2em;
+  width: 2em;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.displayName {
+  margin-left: 1em;
+  width: 6em;
+}
+
+.score {
+  width: 5em;
+}
